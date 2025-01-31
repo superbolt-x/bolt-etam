@@ -17,5 +17,6 @@ conversions as purchases,
 conversions_value as revenue,
 search_impression_share,
 search_budget_lost_impression_share,
-search_rank_lost_impression_share
+search_rank_lost_impression_share,
+addtocart as add_to_cart
 FROM {{ ref('googleads_performance_by_campaign') }}
